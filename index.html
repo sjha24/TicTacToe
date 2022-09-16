@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe Game</title>
+    <link rel="stylesheet" href="index.css">
+    <!-- google font -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&family=Roboto+Mono:wght@300&family=Roboto:ital,wght@0,400;1,300&display=swap');
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>Tic Toe Game</li>
+        </ul>
+    </nav>
+    <h1>Welcome TicTacToe Game</h1>
+    <div class="container">
+       <div class="top">
+           <div class="top-left">
+               <h2 class="cross">&#10005;</h2>
+               <h2 class="minus">-</h2>
+           </div>
+           <div class="top-right">
+            <h2 class="cross">&#111;</h2>
+            <h2 class="minus">-</h2>
+                <h2 class="cross">&#111;</h2>
+                <h2 class="minus">-</h2>
+           </div>
+       </div>
+       <div class="game-container">
+           <div class="game">
+               <div class="cell" id="cell1"><span class="boxTxt"></span></div>
+               <div class="cell" id="cell2"><span class="boxTxt"></span></div>
+               <div class="cell" id="cell3"><span class="boxTxt"></span></div>
+               <div class="cell" id="cell4"><span class="boxTxt"></span></div>
+               <div class="cell" id="cell5"><span class="boxTxt"></span></div>
+               <div class="cell" id="cell6"><span class="boxTxt"></span></div>
+               <div class="cell" id="cell7"><span class="boxTxt"></span></div>
+               <div class="cell" id="cell8"><span class="boxTxt"></span></div>
+               <div class="cell" id="cell9"><span class="boxTxt"></span></div>
+           </div>
+       </div>
+       
+       <div class="bottom">
+           <button id="reset">Reset Game</button>
+           <span class="info"></span>
+       </div>
+   </div>
+   <script src="./index.js"></script>
+</body>
+</html>
